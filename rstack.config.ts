@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 
 import { pluginTypeCheck } from '@rsbuild/plugin-type-check';
 import { pluginVue } from '@rsbuild/plugin-vue';
-import { RsdoctorRspackPlugin } from '@rsdoctor/rspack-plugin';
+import { RsdoctorRspackPlugin } from '@rsdoctor/core';
 import { pluginVueDevTools } from '@vue-devtools-rstack/rsbuild';
 import { define } from 'rstack';
 

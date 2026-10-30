@@ -35,6 +35,7 @@
     "**/.nitro/**",
     "**/.nuxt/**",
     "**/.pnpm/**",
+    "**/.rsdoctor/**",
     "**/.rstack/**",
     // Test coverage reports.
     "**/coverage/**",
