@@ -16,6 +16,7 @@
     "**/.pnpm/**",
     "**/.rsdoctor/**",
     "**/.rstack/**",
+    "**/.weangler/**",
     // Test coverage reports.
     "**/coverage/**",
     "**/e2e/**",
@@ -28,10 +29,12 @@
     "**/docs/**",
     "**/storybook-static/**",
     "**/target/**",
+    // Wrangler
+    "**/worker-configuration.d.ts",
     // Node modules
     "**/node_modules/**"
   ],
-  "printWidth": 80,
+  "printWidth": 100,
   "tabWidth": 2,
   "useTabs": false,
   "semi": true,

@@ -37,6 +37,7 @@
     "**/.pnpm/**",
     "**/.rsdoctor/**",
     "**/.rstack/**",
+    "**/.weangler/**",
     // Test coverage reports.
     "**/coverage/**",
     "**/e2e/**",
@@ -49,6 +50,8 @@
     "**/docs/**",
     "**/storybook-static/**",
     "**/target/**",
+    // Wrangler
+    "**/worker-configuration.d.ts",
     // Node modules
     "**/node_modules/**"
   ],
@@ -112,10 +115,7 @@
         // Enable @ts-ignore etc.
         "typescript/ban-ts-comment": "off",
         // Left-hand side style
-        "typescript/consistent-generic-constructors": [
-          "error",
-          "type-annotation"
-        ],
+        "typescript/consistent-generic-constructors": ["error", "type-annotation"],
         // Fix for pinia
         "typescript/explicit-function-return-type": "off",
         // Fix for import.meta.env

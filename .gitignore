@@ -19,6 +19,7 @@ node_modules/
 .pnpm/crates/
 .rstack/
 !.rstack/hooks/
+.wrangler/
 
 # Test Report
 coverage/
@@ -38,6 +39,7 @@ storybook-static/
 .env
 .env.*
 !.env.example
+.dev.vars
 
 # Lockfiles
 *.lock
